@@ -1,0 +1,178 @@
+    1  git --version
+    2  pwd
+    3  git --version
+    4  ll
+    5  ls
+    6  python --version
+    7  pwd
+    8  mkdir -p my-first-repo
+    9  cd my-first-repo/
+   10  ls
+   11  git init
+   12  ls -lart
+   13  git statsu
+   14  git status
+   15  python --version
+   16  py --version
+   17  py --version
+   18  python --version
+   19  py --version
+   20  ls
+   21  ph testing.py 
+   22  python3 testing.py 
+   23  python testing.py
+   24  winpty python testing.py
+   25  ls -force
+   26  ls -lart
+   27  python --version
+   28  py --version
+   29  py testing.py 
+   30  python testing.py 
+   31  git status
+   32  git status
+   33  vi nesting.py
+   34  py nesting.py
+   35  git add .
+   36  git status
+   37  git status
+   38  git status
+   39  rm nesting.py 
+   40  git status
+   41  git restore
+   42  git restore .
+   43  git status
+   44  history
+   45  rm testing.py 
+   46  git restore testing.py 
+   47  .
+   48  git status
+   49  touch testcase
+   50  git status
+   51  git add testcase 
+   52  git status
+   53  git commit -m "Adding files to tracked from staging"
+   54  git status
+   55  git config --list
+   56  git config --global user.name "Omkar Ingale"
+   57  git config --global user.email "nothingmuch141@gmail.com"
+   58  git config --list
+   59  git config --list --show-origin
+   60  git status
+   61  git commit -m "staging to tracked - 1st time commit operation"
+   62  git status
+   63  git log
+   64  git show
+   65  git show --name-only
+   66  mv testcase git_commands_history
+   67  ll
+   68  history > git_commands_history 
+   69  cat git_commands_history 
+   70  git status
+   71  ls
+   72  ll
+   73  git show --name-only
+   74  git restore .
+   75  ls
+   76  ll
+   77  cat testcase
+   78  git status
+   79  git show --name-only
+   80  git add .
+   81  ls
+   82  ll
+   83  git status
+   84  git commit -m "lest see what happens if i add this file now to commit"
+   85  git status
+   86  git show --name-only
+   87  git log
+   88  git list
+   89  git show
+   90  git log
+   91  git remote -v
+   92  git remote -v
+   93  git remote -v
+   94  git remote add origin https://github.com/ItzEraserHead/my-first-repo.git
+   95  git remote -v
+   96   git oush origin master
+   97   git push origin master
+   98  git remote -v
+   99  git status
+  100  git log
+  101  git show --name-only
+  102  git push origin master
+  103  cd ..
+  104  ls
+  105  ll
+  106  mkdir -p cloning-demo
+  107  cd cloning-demo/
+  108  ll
+  109  git clone https://github.com/LondheShubham153/github-for-devops-workshop.git
+  110  ls
+  111  ll
+  112  cd github-for-devops-workshop/
+  113  ll
+  114  git status
+  115  git show --name-only
+  116  cd ../../my-first-repo/
+  117  ll
+  118  cat git_commands_history | wc -l
+  119  git status
+  120  cat git_commands_history | wc -l
+  121  histtory > git_commands_history
+  122  history > git_commands_history
+  123  cat git_commands_history | wc -l
+  124  git status
+  125  git add git_commands_history 
+  126  git status
+  127  git commit -m "Appended git history file with new data"
+  128  git status
+  129  git push origin master
+  130  cat git_commands_history 
+  131  vi git_commands_history 
+  132  git status
+  133  git add git_commands_history
+  134  git status
+  135  git push origin master
+  136  git commit -m "Appended git history file with new data"
+  137  git push origin master
+  138  ll
+  139  git status
+  140  git show --name-only
+  141  git log
+  142  git reset 15a33e89
+  143  git log
+  144  git status
+  145  cat git_commands_history 
+  146  history | grep -v -E "token|PAT" > git_commands_history
+  147  git status
+  148  git add git_commands_history
+  149  git status
+  150  git log
+  151  ls
+  152  git show --name-only
+  153  git show
+  154  git show --name-only
+  155  git log
+  156  git commit -m "After reset to old commit and changing data in history file"
+  157  git log
+  158  man git
+  159  git --help
+  160  git push origin master
+  161  git show --name-only
+  162  git log
+  163  git reset --hard 1933f79f82e03afb35d89dd5bff02df2e49b0db7
+  164  ls
+  165  git status
+  166  history 
+  167  history -d 91 92 93
+  168  history
+  169  history -d 91
+  170  history
+  171  history -d 91
+  172* histor
+  173  history -d 98
+  174  history
+  175  ll
+  176  git status
+  177  histroy > git_command_history
+  178  history > git_command_history
