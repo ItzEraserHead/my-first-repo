@@ -1,0 +1,388 @@
+    1  git --version
+    2  pwd
+    3  git --version
+    4  ll
+    5  ls
+    6  python --version
+    7  pwd
+    8  mkdir -p my-first-repo
+    9  cd my-first-repo/
+   10  ls
+   11  git init
+   12  ls -lart
+   13  git statsu
+   14  git status
+   15  python --version
+   16  py --version
+   17  py --version
+   18  python --version
+   19  py --version
+   20  ls
+   21  ph testing.py 
+   22  python3 testing.py 
+   23  python testing.py
+   24  winpty python testing.py
+   25  ls -force
+   26  ls -lart
+   27  python --version
+   28  py --version
+   29  py testing.py 
+   30  python testing.py 
+   31  git status
+   32  git status
+   33  vi nesting.py
+   34  py nesting.py
+   35  git add .
+   36  git status
+   37  git status
+   38  git status
+   39  rm nesting.py 
+   40  git status
+   41  git restore
+   42  git restore .
+   43  git status
+   44  history
+   45  rm testing.py 
+   46  git restore testing.py 
+   47  .
+   48  git status
+   49  touch testcase
+   50  git status
+   51  git add testcase 
+   52  git status
+   53  git commit -m "Adding files to tracked from staging"
+   54  git status
+   55  git config --list
+   56  git config --global user.name "Omkar Ingale"
+   57  git config --global user.email "nothingmuch141@gmail.com"
+   58  git config --list
+   59  git config --list --show-origin
+   60  git status
+   61  git commit -m "staging to tracked - 1st time commit operation"
+   62  git status
+   63  git log
+   64  git show
+   65  git show --name-only
+   66  mv testcase git_commands_history
+   67  ll
+   68  history > git_commands_history 
+   69  cat git_commands_history 
+   70  git status
+   71  ls
+   72  ll
+   73  git show --name-only
+   74  git restore .
+   75  ls
+   76  ll
+   77  cat testcase
+   78  git status
+   79  git show --name-only
+   80  git add .
+   81  ls
+   82  ll
+   83  git status
+   84  git commit -m "lest see what happens if i add this file now to commit"
+   85  git status
+   86  git show --name-only
+   87  git log
+   88  git list
+   89  git show
+   90  git log
+   91  get remote set-url origin https"//token_from_github_here@github.com/ItzEraserHead/my-first-repo.git
+   92  git remote set-url origin https"//token_from_github_here@github.com/ItzEraserHead/my-first-repo.git
+   93  get remote set-url origin https://token_from_github_here@github.com/ItzEraserHead/my-first-repo.git
+   94  git remote -v
+   95  git remote -v
+   96  git remote -v
+   97  git remote add origin https://github.com/ItzEraserHead/my-first-repo.git
+   98  git remote -v
+   99   git oush origin master
+  100   git push origin master
+  101  git remote set-url origin https://token_from_github_here@github.com/ItzEraserHead/my-first-repo.git
+  102  git remote -v
+  103  git status
+  104  git log
+  105  git show --name-only
+  106  git push origin master
+  107  cd ..
+  108  ls
+  109  ll
+  110  mkdir -p cloning-demo
+  111  cd cloning-demo/
+  112  ll
+  113  git clone https://github.com/LondheShubham153/github-for-devops-workshop.git
+  114  ls
+  115  ll
+  116  cd github-for-devops-workshop/
+  117  ll
+  118  git status
+  119  git show --name-only
+  120  cd ../../my-first-repo/
+  121  ll
+  122  cat git_commands_history | wc -l
+  123  git status
+  124  cat git_commands_history | wc -l
+  125  histtory > git_commands_history
+  126  history > git_commands_history
+  127  cat git_commands_history | wc -l
+  128  git status
+  129  git add git_commands_history 
+  130  git status
+  131  git commit -m "Appended git history file with new data"
+  132  git status
+  133  git push origin master
+  134  cat git_commands_history 
+  135  vi git_commands_history 
+  136  git status
+  137  git add git_commands_history
+  138  git status
+  139  git push origin master
+  140  git commit -m "Appended git history file with new data"
+  141  git push origin master
+  142  git reset 15a33e89
+  143  git log
+  144  git status
+  145  cat git_commands_history 
+  146  history | grep -v -E "token|PAT" > git_commands_history
+  147  git status
+  148  git add git_commands_history
+  149  git status
+  150  git log
+  151  ls
+  152  git show --name-only
+  153  git show
+  154  git show --name-only
+  155  git log
+  156  git commit -m "After reset to old commit and changing data in history file"
+  157  git log
+  158  man git
+  159  git --help
+  160  git push origin master
+  161  git show --name-only
+  162  git log
+  163  git reset --hard 1933f79f82e03afb35d89dd5bff02df2e49b0db7
+  164  ls
+  165  git status
+  166  history 
+  167  history -d 91 92 93
+  168  history
+  169  history -d 91
+  170  history
+  171  history -d 91
+  172  histor
+  173  history -d 98
+  174  history
+  175  ll
+  176  git status
+  177  histroy > git_command_history
+  178  history > git_command_history
+  179  vi history
+  180  vi git_command_history 
+  181  cat git_command_history | grep set
+  182  cat git_command_history | grep set-url
+  183  cat git_command_history | grep @
+  184  git status
+  185  git add git_command_history 
+  186  git status
+  187  git commit -m "refreshed data, hope it works as we have done hard reset and recreate file "
+  188  git log
+  189  git status
+  190  git push origin master
+  191  git push origin master --force
+  192  git status
+  193  git log
+  194  git status
+  195  git log
+  196  git show --name-only
+  197  pwd
+  198  cd ../
+  199  ls
+  200  cd ..
+  201  ls
+  202  cd my-first-repo/
+  203  ls
+  204  git log
+  205   git --help
+  206  git --version
+  207  clear
+  208  git config --list
+  209  git history
+  210  history
+  211  history | grep clone
+  212  ls
+  213  git status
+  214  ls
+  215  git status
+  216  touch checking_states
+  217  git status
+  218  cat testcase
+  219  git status
+  220  vi testcase
+  221  git status
+  222   git add testcase checking_states
+  223  git status
+  224  git commit -m "Practice to learn 4 states of files"
+  225  git status
+  226  ls
+  227  cd ../Demo-repo-isit/
+  228  ls
+  229  cat README.md 
+  230  ls
+  231  git remote -v
+  232   git branch
+  233  git status
+  234  cd ../my-first-repo/
+  235  git status
+  236  ls
+  237  cd cloning-demo/
+  238  ls
+  239  cd github-for-devops-workshop/
+  240  ls
+  241  cat git_commands.txt 
+  242  git branch
+  243  vi git_commands.txt
+  244  tail git_commands.txt 
+  245  git status
+  246  git add git_commands.txt
+  247  git commit git_commands.txt -m "just added one line and now pushing it"
+  248  git status
+  249  git push origin master
+  250  git remote -v
+  251  cd ..
+  252  ls
+  253  cd ../my-first-repo/
+  254  ls
+  255  cd ../Demo-repo-isit/
+  256  ls
+  257  cd ../
+  258  ls
+  259  cd cloning-demo/
+  260  ls
+  261  cd github-for-devops-workshop/
+  262  ls
+  263  git log
+  264  ls
+  265  git show
+  266  tail git_commands.txt 
+  267  git log
+  268  git restore git_commands.txt
+  269  tail git_commands.txt
+  270  git log
+  271  git restore git_commands.txt HEAD~1
+  272  git show
+  273  git restore --help
+  274  git --help
+  275  git status
+  276  git log
+  277  git restore --source 31482a8bedd8b6ebfda8ca6d3ef45489bf9dd5b8 git_commands.txt
+  278  git status
+  279  tail git_commands.txt
+  280  git restore --source 707e5c642bb7e3f7bd52ea8ebd9c2e7c92c0e617 git_commands.txt
+  281  git status
+  282  tail git_commands.txt
+  283  git restore git_commands.txt
+  284  tail git_commands.txt
+  285  git status
+  286  tail git_commands.txt
+  287  git status
+  288  git log
+  289  git restore --source 707e5c642bb7e3f7bd52ea8ebd9c2e7c92c0e617 git_commands.txt
+  290  git status
+  291  git rm --cached git_commands.txt 
+  292  git status
+  293  git status
+  294  tail git_commands.txt 
+  295  git add git_commands.txt 
+  296  git status
+  297  git log
+  298  tail git_commands.txt 
+  299  cd ../../my-first-repo/
+  300  ls
+  301  git status
+  302  man git
+  303  git --help
+  304  git help branch
+  305  git branch
+  306  git branch dev
+  307  git branch
+  308  git switch dev
+  309  git log --oneline --graph --decorate --all
+  310  git config --global --list
+  311  git config --global alias.adog "log --all --decorate --oneline --graph"
+  312  git config --global --list
+  313  git adog
+  314  git log
+  315  ls
+  316  git adog
+  317  git branch
+  318  ls
+  319  git switch master
+  320  ls
+  321  git pull origin master
+  322  ls
+  323  cat dev2_file 
+  324  ls
+  325  git switch dev
+  326  ls
+  327  git merge master
+  328  ls
+  329  git push origin dev
+  330  pwd
+  331  ls -la
+  332  cd my-first-repo/
+  333  ls -la
+  334  cd .git
+  335  ls
+  336  cd hooks
+  337  ls -la
+  338   pip install flake8
+  339  cd ..
+  340  ls
+  341  cd ..
+  342  ls
+  343  git branch
+  344  git branch -d dev2
+  345  ls
+  346  git branch
+  347  git push origin --delete dev2
+  348  git branch -d dev1
+  349  git push origin --delete dev1
+  350  git oush origin master
+  351  git push origin master
+  352  ls
+  353  git status
+  354  git rm --cached nesting.py testcase dev_file dev2_file 
+  355  ls
+  356  git status
+  357  git restore --staged dev2_file dev_file nesting.py testcase
+  358  git status
+  359  ls
+  360  rm dev2_file dev_file nesting.py testcase
+  361  ls
+  362  git status
+  363  ls
+  364  git push origin master
+  365  git add -A
+  366  git commit -m "Remove old dev files, nesting script, and testcase"
+  367  git push origin master
+  368  ls
+  369  git rm checking_states new_dev1_file testing.py
+  370  git commit -m "Deleted these files but with git rm filename"
+  371  git push origin master
+  372  ls
+  373  git touch
+  374  git branch
+  375  git branch -b dev1
+  376  git branch dev1
+  377  git branch
+  378  git switch
+  379  git switch dev1
+  380  ls
+  381  touch cmd_hist
+  382  datetime
+  383  timedate
+  384  date
+  385  history | grep "2026-09-01"
+  386  histroy > cmd_hist
+  387  ls
+  388  history > cmd_hist
